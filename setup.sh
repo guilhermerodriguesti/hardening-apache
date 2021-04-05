@@ -48,7 +48,7 @@ chown $USER:$USER /var/www/$hostname/log/
 mv hardening-apache-master/index.html /var/www/$hostname/html/
 sed -i "s/$hostname/$MyStr/g" /var/www/$hostname/html/index.html
 
-mv hardening-apache-master/REDHAT.jpg /var/www/$hostname/html/LA_Logo.png
+mv hardening-apache-master/Diagram.png /var/www/$hostname/html/LA_Logo.png
 chown $USER:$USER /var/www/$hostname/html/LA_Logo.png
 
 mkdir /etc/httpd/sites-available
